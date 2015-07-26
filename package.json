@@ -1,15 +1,10 @@
 {
   "name": "generator-taunus",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Yeoman generator for Taunus applications",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "https://github.com/taunus/generator-taunus.git",
-  "author": {
-    "name": "Nicolas Bevacqua",
-    "email": "hub@bevacqua.io",
-    "url": "https://github.com/bevacqua"
-  },
+  "repository": "https://github.com/d-stuff/generator-taunus.git",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -17,7 +12,8 @@
     "test": "mocha"
   },
   "files": [
-    "app"
+    "app",
+    "module"
   ],
   "keywords": [
     "yeoman-generator"

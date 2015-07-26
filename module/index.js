@@ -1,11 +1,8 @@
 'use strict';
 
 var fs = require('fs');
-var path = require('path');
-var glob = require('glob');
 var inflections = require('underscore.inflections');
 var yeoman = require('yeoman-generator');
-var yosay = require('yosay');
 
 var TaunusGenerator = yeoman.generators.NamedBase.extend({
     init: function () {
